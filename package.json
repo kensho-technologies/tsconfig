@@ -2,6 +2,9 @@
   "name": "@kensho-technologies/tsconfig",
   "version": "0.1.0",
   "description": "Shared TypeScript config used across Kensho projects",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "tsconfig.json",
   "tsconfig": "tsconfig.json",
   "files": [
