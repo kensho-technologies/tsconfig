@@ -19,12 +19,12 @@
   "license": "Apache-2.0",
   "prettier": "@kensho-technologies/prettier-config",
   "peerDependencies": {
-    "typescript": "4.1.0-dev.20201019"
+    "typescript": "^4.1.0"
   },
   "devDependencies": {
     "@kensho-technologies/prettier-config": "^1.0.0",
-    "@types/react": "^16.9.53",
-    "prettier": "^2.1.2",
-    "react": "^17.0.0"
+    "@types/react": "^16.14.0",
+    "prettier": "^2.2.0",
+    "react": "^17.0.1"
   }
 }
