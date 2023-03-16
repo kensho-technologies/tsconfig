@@ -9,8 +9,6 @@
     "moduleResolution": "node",
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
     "strict": true,
     "target": "ES2022",
     "tsBuildInfoFile": ".tsbuildinfo"
