@@ -26,9 +26,9 @@
     "typescript": "^5.0.0"
   },
   "devDependencies": {
-    "@kensho-technologies/prettier-config": "^1.0.0",
-    "@types/react": "^18.0.28",
-    "prettier": "^2.8.4",
-    "react": "^18.2.0"
+    "@kensho-technologies/prettier-config": "^3.0.0",
+    "@types/react": "^18.3.12",
+    "prettier": "^3.3.3",
+    "react": "^18.3.1"
   }
 }
