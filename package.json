@@ -6,8 +6,8 @@
     "access": "public"
   },
   "engines": {
-    "node": ">=16.13.0",
-    "npm": ">=8.0.0"
+    "node": ">=20.9.0",
+    "npm": ">=10.0.0"
   },
   "main": "tsconfig.json",
   "tsconfig": "tsconfig.json",
