@@ -1,8 +1,5 @@
 # tsconfig
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/kensho-technologies/tsconfig/ci.yml?branch=main)](https://github.com/kensho-technologies/tsconfig/actions)
-[![npm](https://img.shields.io/npm/v/@kensho-technologies/tsconfig.svg)](https://npm.im/@kensho-technologies/tsconfig)
-
 Shared [TypeScript](https://www.typescriptlang.org) config used across Kensho projects.
 
 ## Install
