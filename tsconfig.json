@@ -10,7 +10,6 @@
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
     "skipLibCheck": true,
-    "target": "ESNext",
-    "tsBuildInfoFile": ".tsbuildinfo"
+    "target": "ESNext"
   }
 }
