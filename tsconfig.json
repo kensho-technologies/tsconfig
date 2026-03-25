@@ -6,12 +6,10 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "lib": ["ESNext", "DOM"],
-    "module": "ESNext",
     "moduleResolution": "bundler",
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
     "skipLibCheck": true,
-    "strict": true,
     "target": "ESNext",
     "tsBuildInfoFile": ".tsbuildinfo"
   }
