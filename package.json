@@ -2,33 +2,34 @@
   "name": "@kensho-technologies/tsconfig",
   "version": "6.0.1",
   "description": "Shared TypeScript config used across Kensho projects",
+  "license": "Apache-2.0",
+  "author": "Kensho Technologies, LLC.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kensho-technologies/tsconfig.git"
+  },
+  "files": [
+    "tsconfig.json"
+  ],
+  "main": "tsconfig.json",
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "fix": "oxfmt",
+    "test": "oxfmt --check && tsc -p fixtures"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "oxfmt": "^0.42.0",
+    "react": "^19.2.4"
+  },
+  "peerDependencies": {
+    "typescript": "^6.0.0"
   },
   "engines": {
     "node": ">=20.9.0",
     "npm": ">=10.0.0"
   },
-  "main": "tsconfig.json",
-  "tsconfig": "tsconfig.json",
-  "files": [
-    "tsconfig.json"
-  ],
-  "scripts": {
-    "fix": "prettier -w .",
-    "test": "prettier -c . && tsc -p fixtures"
-  },
-  "repository": "kensho-technologies/tsconfig",
-  "author": "Kensho Technologies, LLC.",
-  "license": "Apache-2.0",
-  "prettier": "@kensho-technologies/prettier-config",
-  "peerDependencies": {
-    "typescript": "^5.7.0"
-  },
-  "devDependencies": {
-    "@kensho-technologies/prettier-config": "^3.0.0",
-    "@types/react": "^18.3.12",
-    "prettier": "^3.4.1",
-    "react": "^18.3.1"
-  }
+  "tsconfig": "tsconfig.json"
 }
